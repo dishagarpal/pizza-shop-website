@@ -1,0 +1,202 @@
+#sec1{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    a{
+        color: white;
+    }
+    a:visited {
+    color: white;           
+    }
+
+    a:hover {
+     color: orange;          
+    }          
+
+
+    a:hover {
+    color: orange;         
+    }
+}
+
+.nav1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 100px;
+    height: 100px;
+    color: white;
+
+}
+
+nav a {
+  color: white;           
+  text-decoration: none;  
+}
+
+nav a:visited {
+  color: white;           
+}
+
+nav a:hover {
+  color: orange;          
+}
+
+body{
+    margin:0;
+    padding: 0;
+    color: black;
+}
+
+.div2 img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    background-color: black;
+    color: white;
+   
+}
+
+h1{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.welcome{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: black;
+    
+
+}
+.welcome tr td img:hover{
+    transform: none;
+}
+table{
+    width: 100%;
+    height:450px;
+    
+    
+}
+
+table tr td img {
+  transition: transform 0.5s ease; 
+}
+
+table td img:hover {
+  transform: rotate(360deg); 
+}
+
+td{
+    text-align: center;
+    font-family: cursive;
+}
+
+#div3{
+    height: 300px;            
+  display: flex;
+  flex-direction: column;    
+  justify-content: center;  
+  align-items: center;       
+  margin: 0;
+  padding: 0;
+  text-align: center;       
+   color: white;
+    background-color: black;
+   
+    font-size: 5lvh;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+header,p{
+
+  margin: 0; 
+  padding: 0; 
+
+}
+p{
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.div4 table td {
+    width: 230px;          
+    height: 230px;       
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.div4 table td img {
+    width: 100%;          
+    height: 100%;          
+    object-fit: cover;    
+    display: block; 
+    transform: none;       
+    transition:none;      
+    
+}
+.orderBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.price{
+    color: white;
+    background-color: black;
+    font-size: smallers;
+    width: 100%;
+    height: 500px;
+    
+}
+.pricehead h2{
+    text-align: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#photos{
+    margin: 0;
+    padding: 0;
+
+}
+#photos tr td img{
+    height: 500px;
+    width:800px;
+    display: block; 
+      
+    transform: none;       
+    transition: none;
+    animation: scroll 10s linear infinite;;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+#photos img:hover {
+  transform: scale(1.05);
+}
+#last{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    color: white;
+}
